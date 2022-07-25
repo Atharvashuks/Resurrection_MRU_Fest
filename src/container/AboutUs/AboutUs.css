@@ -16,6 +16,8 @@
 .app__aboutus-content {
   width: 100%;
   z-index: 2;
+  margin-top: 5em;
+  margin-bottom: 1em;
 }
 
 .app__aboutus-content_about {
@@ -47,7 +49,7 @@
 .app__aboutus-content_history p,
 .app__aboutus-content_about p {
   margin: 2rem 0rem;
-  color: var(--color-grey);
+  /* color: var(--color-grey); */
 }
 
 @media screen and (min-width: 2000px) {

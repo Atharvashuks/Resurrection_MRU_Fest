@@ -1,7 +1,9 @@
 .section__padding {
   padding: 4rem 6rem;
 }
-
+.section__padding2 {
+  padding: 8rem 12rem;
+}
 .flex__center {
   display: flex;
   justify-content: center;
@@ -15,7 +17,13 @@
   background-repeat: repeat;
   background-attachment: fixed;
 }
-
+.app__bg2{
+  background: url("./assets/curtain.jpg");
+  background-position:top;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
 .app__wrapper {
   display: flex;
   justify-content: space-between;
@@ -145,6 +153,9 @@
   .section__padding {
     padding: 4rem;
   }
+  .section__padding2 {
+    padding: 4rem;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -165,7 +176,9 @@
   .p__opensans {
     font-size: 12px;
   }
-
+  .section__padding2 {
+    padding: 4rem 2rem;
+  }
   .p__cormorant {
     font-size: 19px;
   }

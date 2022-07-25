@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import bg from "../assets/bg.png";
 import chef from "../assets/chef.png";
 import G from "../assets/G.png";
@@ -20,7 +21,7 @@ import award05 from "../assets/award05.png";
 import sign from "../assets/sign.png";
 import quote from "../assets/quote.png";
 import gericht from "../assets/gericht.png";
-
+import ResurrectionTxt from "../assets/Resurrection(Txt).png";
 import Resurrection from "../assets/Resurrection.png";
 import bollywood from "../assets/bollywood.png";
 
@@ -49,4 +50,5 @@ export default {
   gericht,
   Resurrection,
   bollywood,
+  ResurrectionTxt,
 };

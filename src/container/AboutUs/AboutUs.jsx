@@ -5,7 +5,7 @@ import "./AboutUs.css";
 
 const AboutUs = () => (
   <div
-    className="app__aboutus app__bg flex__center section__padding"
+    className="app__aboutus app__bg2 flex__center section__padding2"
     id="about"
   >
     {/* <div className="app__aboutus-overlay flex__center">
@@ -36,10 +36,10 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">Our History</h1>
         <img src={images.spoon} alt="about spoon" className="spoon__img" />
         <p className="p__opensans">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.{" "}
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ad hic
+          aliquam at sed mollitia ut recusandae non in impedit facilis aliquid,
+          quis odio, reprehenderit voluptatum inventore dolorem. Provident,
+          quibusdam?{" "}
         </p>
         <button type="button" className="custom__button">
           Know More

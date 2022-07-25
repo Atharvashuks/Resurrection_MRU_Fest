@@ -13,6 +13,7 @@ const Navbar = () => {
     <nav className="app__navbar">
       <div className="app__navbar-logo">
         <img src={images.Resurrection} alt="app logo" />
+        <img id="app__navbar-Txt" src={images.ResurrectionTxt} alt="app logo" />
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
@@ -22,7 +23,7 @@ const Navbar = () => {
           <a href="#about">About</a>
         </li>
         <li className="p__opensans">
-          <a href="#menu">Menu</a>
+          <a href="#events">Events</a>
         </li>
         <li className="p__opensans">
           <a href="#awards">Awards</a>
@@ -63,7 +64,7 @@ const Navbar = () => {
               </li>
 
               <li className="p__opensans">
-                <a href="#menu">Menu</a>
+                <a href="#events">Events</a>
               </li>
               <li className="p__opensans">
                 <a href="#awards">Awards</a>
