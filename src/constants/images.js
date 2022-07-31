@@ -24,7 +24,7 @@ import gericht from "../assets/gericht.png";
 import ResurrectionTxt from "../assets/Resurrection(Txt).png";
 import Resurrection from "../assets/Resurrection.png";
 import bollywood from "../assets/bollywood.png";
-
+import Resurrectiontext from "../assets/Resurrectiontext.png";
 export default {
   bg,
   chef,
@@ -51,4 +51,5 @@ export default {
   Resurrection,
   bollywood,
   ResurrectionTxt,
+  Resurrectiontext,
 };

@@ -9,7 +9,10 @@
     background: var(--color-black);
     padding-top: 0;
 }
-
+#app__footer-logo-Txt{
+    width: 15rem;
+    margin-bottom: 1.55rem;
+}
 .app__footer-links {
     width: 100%;
     display: flex;
@@ -28,10 +31,10 @@
 }
 
 .app__footer-links_logo img:first-child {
-    width: 210px;
+    width: 5rem;
     margin-bottom: 0.75rem;
+    /* margin-left: 4rem; */
 }
-
 
 .app__footer-links_work p:nth-child(2n + 1) {
     margin-bottom: 1rem;
@@ -97,6 +100,6 @@
 
 @media screen and (max-width: 350px) {
     .app__footer-links_logo img:first-child {
-        width: 80%;
+        width: 40%;
     }
 }

@@ -14,14 +14,16 @@ const AboutUs = () => (
 
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">Theme</h1>
+        <h1 className="headtext__cormorant">About</h1>
         <img src={images.spoon} alt="about spoon" className="spoon__img" />
         <p className="p__opensans">
-          Let's embark on the most dramatic voyage in Bollywood film. Go back in
-          time to see how cinema shaped from the 1990s to the 2020s. Our essence
-          is to use the our Bollywood music, culture, fashion and attitude have
-          been passed over generations through our bollywood icons. Let's go
-          through the various stages and endeavor to resurrect some of them.
+          Some remarkable memories are made from the days when you become a part
+          of an event so magnificent that it leaves you in complete amazement
+          and astonishment.<br /> Witnessing moments like these makes us realize the
+          facts that moments like these are occasional and every single minute
+          of them should be entirely relished. <br /> Revitalizing moments like these
+          requires monumental efforts to go forth and shine thereby being a part
+          of it.
         </p>
         <button type="button" className="custom__button">
           Know More

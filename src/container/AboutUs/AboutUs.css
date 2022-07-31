@@ -30,7 +30,7 @@
 }
 
 .app__aboutus-content_knife {
-  margin: 1rem 2rem;
+  margin: 1rem 1rem;
 }
 
 .app__aboutus-content_knife img {
@@ -44,6 +44,8 @@
   align-items: flex-start;
   flex-direction: column;
   text-align: left;
+  position: relative;
+  top: -4em;
 }
 
 .app__aboutus-content_history p,

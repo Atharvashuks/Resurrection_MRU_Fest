@@ -12,8 +12,14 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={images.Resurrection} alt="app logo" />
-        <img id="app__navbar-Txt" src={images.ResurrectionTxt} alt="app logo" />
+        <a href="#home">
+          <img src={images.Resurrection} alt="app logo" />
+          <img
+            id="app__navbar-Txt"
+            src={images.ResurrectionTxt}
+            alt="app logo"
+          />
+        </a>
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
@@ -33,12 +39,12 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="app__navbar-login">
-        <a href="#login" className="p__opensans">
-          Log In/Register
+        <a href="/" className="p__opensans">
+          Sponsers
         </a>
         <div />
         <a href="/" className="p__opensans">
-          Book table
+          Our team
         </a>
       </div>
       <div className="app__navbar-smallscreen">

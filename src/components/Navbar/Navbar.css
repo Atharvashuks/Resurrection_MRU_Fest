@@ -16,13 +16,11 @@
 .app__navbar-logo img {
   width: 150px;
 }
-#app__navbar-Txt{
+#app__navbar-Txt {
   width: 250px;
 }
 .app__navbar-links {
   flex: 1;
-  position: relative;
-  top: -8px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,12 +34,6 @@
 
 .app__navbar-links li:hover {
   color: var(--color-gray);
-}
-
-.app__navbar-login {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
 }
 
 .app__navbar-login {
@@ -112,8 +104,10 @@
   .app__navbar-logo img {
     width: 80px;
   }
-  #app__navbar-Txt{
-    width: 150px;
+  #app__navbar-Txt {
+    width: 250px;
+    position: relative;
+    top: -0.75rem;
   }
 }
 
@@ -139,7 +133,9 @@
   .app__navbar-logo img {
     width: 50px;
   }
-  #app__navbar-Txt{
-    width: 100px;
+  #app__navbar-Txt {
+    width: 150px;
+    position: relative;
+    top: -0.5rem;
   }
 }

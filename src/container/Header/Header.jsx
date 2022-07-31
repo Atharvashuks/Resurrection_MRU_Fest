@@ -8,9 +8,9 @@ const Header = () => (
   <div className="app__header app__wrapper section__padding" id="home">
     <div className="app__wrapper_info">
       <SubHeading title="About" />
-      <h1 className="app__header-h1" style={{ marginRight: 12 }}>
-        Resurrection 2K22
-      </h1>
+      <div className="header-text">
+      <img src={images.Resurrectiontext} alt="header-text" />
+      </div>
       <button type="button" className="custom__button">
         Explore Events
       </button>
