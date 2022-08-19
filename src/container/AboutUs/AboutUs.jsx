@@ -17,13 +17,11 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">About</h1>
         <img src={images.spoon} alt="about spoon" className="spoon__img" />
         <p className="p__opensans">
-          Some remarkable memories are made from the days when you become a part
-          of an event so magnificent that it leaves you in complete amazement
-          and astonishment.<br /> Witnessing moments like these makes us realize the
-          facts that moments like these are occasional and every single minute
-          of them should be entirely relished. <br /> Revitalizing moments like these
-          requires monumental efforts to go forth and shine thereby being a part
-          of it.
+          The fifth edition of Resurrection will be larger , far-reaching and
+          better in every manner with the galaxy of intellectuals , distinct
+          vision , illuminating ideas and excellency of art since it will be
+          constructed from the ground up with the express purpose of becoming
+          Pan India's largest cultural event.
         </p>
         <button type="button" className="custom__button">
           Know More
