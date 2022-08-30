@@ -1,22 +1,24 @@
-import React from 'react';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Footer } from "./container";
+import { Navbar } from "./components";
+import Home from "./Pages/Home";
+import Sponsers from "./Pages/Sponsers/Sponsers";
+import Team from "./Pages/Teams/Team";
+import "./App.css";
 
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
-import { Navbar } from './components';
-import './App.css';
-
-const App = () => (
-  <div>
-    <Navbar />
-    <Header />
-    <AboutUs />
-    <SpecialMenu />
-    <Chef />
-    <Intro />
-    <Laurels />
-    <Gallery />
-    <FindUs />
-    <Footer />
-  </div>
-);
+function App() {
+  return (
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/Sponsers" element={<Sponsers />} />
+        <Route path="/Team" element={<Team />} />
+      </Routes>
+      <Footer />
+    </Router>
+  );
+}
 
 export default App;

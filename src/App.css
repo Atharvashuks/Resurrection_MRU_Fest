@@ -2,7 +2,7 @@
   padding: 4rem 6rem;
 }
 .section__padding2 {
-  padding: 8rem 12rem;
+  padding: 8rem 14rem;
 }
 .flex__center {
   display: flex;
@@ -17,9 +17,9 @@
   background-repeat: repeat;
   background-attachment: fixed;
 }
-.app__bg2{
-  background: url("./assets/curtain.jpg");
-  background-position:top;
+.app__bg2 {
+  background: url("./assets/bg2.png");
+  background-position: top;
   background-size: cover;
   background-repeat: repeat;
   background-attachment: fixed;
