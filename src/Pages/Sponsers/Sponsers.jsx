@@ -8,7 +8,7 @@ const Sponsers = () => (
     <h1 className="app__header-h1">Sponsers</h1>
     <h2 className="app__header-h2">Previous</h2>\
     <div className="Sponsers__Logos">
-      {data.sponserimg.map((logo, index) => {
+      {data?.sponserimg?.map((logo, index) => {
         return <Logo key={index} {...logo} />;
       })}
     </div>

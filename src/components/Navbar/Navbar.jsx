@@ -24,27 +24,27 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
-          <Link to="/">Home</Link>
+          <a href="/#home">Home</a>
         </li>
         <li className="p__opensans">
-          <a href="#about">About</a>
+          <a href="/#about">About</a>
         </li>
         <li className="p__opensans">
-          <a href="#events">Events</a>
+          <a href="/#events">Events</a>
         </li>
         <li className="p__opensans">
-          <a href="#awards">Awards</a>
+          <a href="/#awards">Awards</a>
         </li>
         <li className="p__opensans">
-          <a href="#contact">Contact</a>
+          <a href="/#contact">Contact</a>
         </li>
       </ul>
       <div className="app__navbar-login">
-        <Link to="/Sponsers" className="p__opensans activeStyle">
+        <Link to="Sponsers" className="p__opensans activeStyle">
           Sponsers
         </Link>
         <div />
-        <Link to="/Team" className="p__opensans">
+        <Link to="Team" className="p__opensans">
           Our team
         </Link>
       </div>
@@ -64,20 +64,20 @@ const Navbar = () => {
             />
             <ul className="app__navbar-smallscreen_links">
               <li className="p__opensans">
-                <Link to="/">Home</Link>
+                <a href="/#home">Home</a>
               </li>
               <li className="p__opensans">
-                <a href="#about">About</a>
+                <a href="/#about">About</a>
               </li>
 
               <li className="p__opensans">
-                <a href="#events">Events</a>
+                <a href="/#events">Events</a>
               </li>
               <li className="p__opensans">
-                <a href="#awards">Awards</a>
+                <a href="/#awards">Awards</a>
               </li>
               <li className="p__opensans">
-                <a href="#contact">Contact</a>
+                <a href="/#contact">Contact</a>
               </li>
               <li className="p__opensans">
                 <a href="/Sponsers">

@@ -2,57 +2,71 @@ import images from "./images";
 
 const wines = [
   {
-    title: "Chapel Hill Shiraz",
-    price: "$56",
-    tags: "AU | Bottle",
+    title: "EDM Night ",
+    // price: "02/09/2022",
   },
   {
-    title: "Catena Malbee",
-    price: "$59",
-    tags: "AU | Bottle",
+    title: "Fashion",
+    // price: "03/09/2022",
   },
   {
-    title: "La Vieillw Rose",
-    price: "$44",
-    tags: "FR | 750 ml",
+    title: "Music",
+    // price: "$44",
   },
   {
-    title: "Rhino Pale Ale",
-    price: "$31",
-    tags: "CA | 750 ml",
+    title: "Dance",
+    // price: "$31",
   },
   {
-    title: "Irish Guinness",
-    price: "$26",
-    tags: "IE | 750 ml",
+    title: "E- sports ",
+    // price: "$26",
+  },
+  {
+    title: "Workshops",
+    // price: "$26",
+  },
+  {
+    title: "Culinary",
+    // price: "$26",
+  },
+  {
+    title: "Arcade games",
+    // price: "$26",
   },
 ];
 
 const cocktails = [
   {
-    title: "Aperol Sprtiz",
-    price: "$20",
-    tags: "Aperol | Villa Marchesi prosecco | soda | 30 ml",
+    title: "Entertainment",
+    // price: "$20",
   },
   {
-    title: "Dark 'N' Stormy",
-    price: "$16",
-    tags: "Dark rum | Ginger beer | Slice of lime",
+    title: "Short Film festival",
+    // price: "$16",
   },
   {
-    title: "Daiquiri",
-    price: "$10",
-    tags: "Rum | Citrus juice | Sugar",
+    title: "Literary",
+    // price: "$10",
   },
   {
-    title: "Old Fashioned",
-    price: "$31",
-    tags: "Bourbon | Brown sugar | Angostura Bitters",
+    title: "Fine arts ",
+    // price: "$31",
   },
   {
-    title: "Negroni",
-    price: "$26",
-    tags: "Gin | Sweet Vermouth | Campari | Orange garnish",
+    title: "Dramatics",
+    // price: "$26",
+  },
+  {
+    title: "Theatre",
+    // price: "$26",
+  },
+  {
+    title: "Photography",
+    // price: "$26",
+  },
+  {
+    title: "Sports ",
+    // price: "$26",
   },
 ];
 
