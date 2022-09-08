@@ -1,5 +1,5 @@
 import React from "react";
-import { data, images } from "../../constants";
+import { data } from "../../constants";
 import { Logo } from "./Sponser";
 import "./Sponser.css";
 

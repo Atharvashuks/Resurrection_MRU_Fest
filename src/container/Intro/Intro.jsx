@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BsFillPlayFill, BsPauseFill } from "react-icons/bs";
 
-import { meal } from "../../constants";
+import { trailer } from "../../constants";
 
 import "./Intro.css";
 
@@ -22,7 +22,7 @@ const Intro = () => {
   return (
     <div className="app__video">
       <video
-        src={meal}
+        src={trailer}
         type="video/mp4"
         Loopcontrols="false"
         muted
