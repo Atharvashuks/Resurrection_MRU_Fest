@@ -7,7 +7,7 @@ import Header from "./Header/Header";
 import Intro from "./Intro/Intro";
 import Laurels from "./Laurels/Laurels";
 import SpecialMenu from "./Menu/SpecialMenu";
-import Sponsers from "../Pages/Sponsers/Sponsers";
+import Sponsers from "../Pages/Sponsors/Sponsors";
 import Team from "../Pages/Teams/Team";
 export {
   AboutUs,

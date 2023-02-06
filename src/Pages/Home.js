@@ -6,7 +6,7 @@ import {
   Gallery,
   Header,
   Intro,
-  Laurels,
+  // Laurels,
   SpecialMenu,
 } from "../container";
 import "../App.css";
@@ -18,7 +18,7 @@ const Home = () => (
     <SpecialMenu />
     <Chef />
     <Intro />
-    <Laurels />
+    {/* <Laurels /> */}
     <Gallery />
     <FindUs />
   </div>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { MdOutlineRestaurantMenu } from "react-icons/md";
+import { GiCrossedSwords } from "react-icons/gi";
 import { Link } from "react-router-dom";
 
 import images from "../../constants/images";
@@ -40,8 +40,8 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="app__navbar-login">
-        <Link to="Sponsers" className="p__opensans activeStyle">
-          Sponsers
+        <Link to="Sponsors" className="p__opensans activeStyle">
+          Sponsors
         </Link>
         <div />
         <Link to="Team" className="p__opensans">
@@ -51,14 +51,14 @@ const Navbar = () => {
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu
           color="#fff"
-          fontSize={27}
+          fontSize={32}
           onClick={() => setToggleMenu(true)}
         />
 
         {toggleMenu && (
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
-            <MdOutlineRestaurantMenu
-              fontSize={27}
+            <GiCrossedSwords
+              fontSize={30}
               className="overlay__close"
               onClick={() => setToggleMenu(false)}
             />
@@ -80,14 +80,10 @@ const Navbar = () => {
                 <a href="/#contact">Contact</a>
               </li>
               <li className="p__opensans">
-                <a href="/Sponsers">
-                  <u>Sponsers</u>
-                </a>
+                <Link to="Sponsers">Sponsors</Link>
               </li>
               <li className="p__opensans">
-                <Link to="/Team">
-                  <u>Team</u>
-                </Link>
+                <Link to="Team">Team</Link>
               </li>
             </ul>
           </div>

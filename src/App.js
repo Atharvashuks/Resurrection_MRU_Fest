@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Footer } from "./container";
 import { Navbar } from "./components";
 import Home from "./Pages/Home";
-import Sponsers from "./Pages/Sponsers/Sponsers";
+import Sponsors from "./Pages/Sponsors/Sponsors";
 import Team from "./Pages/Teams/Team";
 import "./App.css";
 
@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/Sponsers" exact element={<Sponsers />} />
+        <Route path="/Sponsors" exact element={<Sponsors />} />
         <Route path="/Team" exact element={<Team />} />
       </Routes>
       <Footer />
