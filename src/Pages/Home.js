@@ -20,7 +20,7 @@ const Home = () => (
     <Intro />
     {/* <Laurels /> */}
     <Gallery />
-    <FindUs />
+    {/* <FindUs /> */}
   </div>
 );
 
