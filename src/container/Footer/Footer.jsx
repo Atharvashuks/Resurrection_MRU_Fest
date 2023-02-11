@@ -2,7 +2,7 @@ import React from "react";
 import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
 
 import { images } from "../../constants";
-import { FooterOverlay, Newsletter } from "../../components";
+import {  Newsletter } from "../../components";
 
 import "./Footer.css";
 
@@ -11,12 +11,12 @@ const Footer = () => (
     <Newsletter />
 
     <div className="app__footer-links">
-      <div className="app__footer-links_contact">
+      {/* <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact Us</h1>
         <p className="p__opensans">QWE Block, XYZ City, ABC 10118, PQR</p>
         <p className="p__opensans">+91 111-222-3331</p>
         <p className="p__opensans">+91 555-888-9997</p>
-      </div>
+      </div> */}
 
       <div className="app__footer-links_logo">
         <div className="app__footer-logo">
@@ -44,13 +44,13 @@ const Footer = () => (
         </div>
       </div>
 
-      <div className="app__footer-links_work">
+      {/* <div className="app__footer-links_work">
         <h1 className="app__footer-headtext">Working Hours</h1>
         <p className="p__opensans">Monday-Friday:</p>
         <p className="p__opensans">08:00 am - 12:00 am</p>
         <p className="p__opensans">Saturday-Sunday:</p>
         <p className="p__opensans">07:00 am - 11:00 pm</p>
-      </div>
+      </div> */}
     </div>
     <div className="footer__copyright">
       <p className="p__opensans">

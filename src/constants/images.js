@@ -57,7 +57,51 @@ import sponser24 from "../assets/Logos/TTAK.png";
 import sponser25 from "../assets/Logos/UM.png";
 import sponser26 from "../assets/Logos/Volkswagen.png";
 import sponser27 from "../assets/Logos/Yippy.png";
+import eventsp1 from "../assets/compresspng/1min.png";
+import eventsp2 from "../assets/compresspng/2-min.png";
+import eventsp3 from "../assets/compresspng/3-min.png";
+import eventsp4 from "../assets/compresspng/4-min.png";
+import eventsp5 from "../assets/compresspng/5-min.png";
+import eventsp6 from "../assets/compresspng/6-min.png";
+import eventsp7 from "../assets/compresspng/7-min.png";
+import eventsp10 from "../assets/compresspng/10-min.png";
+import eventsp11 from "../assets/compresspng/11-min.png";
+import eventsp12 from "../assets/compresspng/12-min.png";
+import eventsp13 from "../assets/compresspng/13-min.png";
+import eventsp14 from "../assets/compresspng/14-min.png";
+import eventsp15 from "../assets/compresspng/15-min.png";
+import eventsp16 from "../assets/compresspng/16-min.png";
+import eventsp17 from "../assets/compresspng/17-min.png";
+import eventsp18 from "../assets/compresspng/18-min.png";
+import eventsp19 from "../assets/compresspng/19-min.png";
+import eventsp20 from "../assets/compresspng/20-min.png";
+import eventsp21 from "../assets/compresspng/21-min.png";
+import eventsp22 from "../assets/compresspng/22-min.png";
+import eventsp23 from "../assets/compresspng/23-min.png";
+
+
 export default {
+  eventsp1,
+  eventsp2,
+  eventsp3,
+  eventsp4,
+  eventsp5,
+  eventsp6,
+  eventsp7,
+  eventsp10,
+  eventsp11,
+  eventsp12,
+  eventsp13,
+  eventsp14,
+  eventsp15,
+  eventsp16,
+  eventsp17,
+  eventsp18,
+  eventsp19,
+  eventsp20,
+  eventsp21,
+  eventsp22,
+  eventsp23,
   bg,
   chef,
   G,

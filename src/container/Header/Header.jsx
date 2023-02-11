@@ -9,7 +9,11 @@ const Header = () => (
     <div className="app__wrapper_info">
       <SubHeading title="About" />
       <div className="header-text">
-        <img src={images.Resurrectiontext} alt="header-text" />
+      <img
+            id="app__navbar-Txt_2"
+            src={images.ResurrectionTxt}
+            alt="app logo"
+          />
       </div>
       <a href="#events">
         <button type="button" className="custom__button">

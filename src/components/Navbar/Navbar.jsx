@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <a href="#home">
+        <a href="/#home">
           <img src={images.Resurrection} alt="app logo" />
           <img
             id="app__navbar-Txt"
@@ -32,12 +32,12 @@ const Navbar = () => {
         <li className="p__opensans">
           <a href="/#events">Events</a>
         </li>
-        <li className="p__opensans">
+        {/* <li className="p__opensans">
           <a href="/#awards">Awards</a>
-        </li>
-        <li className="p__opensans">
+        </li> */}
+        {/* <li className="p__opensans">
           <a href="/#contact">Contact</a>
-        </li>
+        </li> */}
       </ul>
       <div className="app__navbar-login">
         <Link to="Sponsors" className="p__opensans activeStyle">
@@ -73,14 +73,14 @@ const Navbar = () => {
               <li className="p__opensans">
                 <a href="/#events">Events</a>
               </li>
-              <li className="p__opensans">
+              {/* <li className="p__opensans">
                 <a href="/#awards">Awards</a>
-              </li>
-              <li className="p__opensans">
+              </li> */}
+              {/* <li className="p__opensans">
                 <a href="/#contact">Contact</a>
-              </li>
+              </li> */}
               <li className="p__opensans">
-                <Link to="Sponsers">Sponsors</Link>
+                <Link to="Sponsors">Sponsors</Link>
               </li>
               <li className="p__opensans">
                 <Link to="Team">Team</Link>

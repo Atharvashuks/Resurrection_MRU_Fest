@@ -2,35 +2,87 @@ import images from "./images";
 
 const wines = [
   {
-    title: "EDM Night ",
+    imgUrl: images.eventsp1,
     // price: "02/09/2022",
   },
   {
-    title: "Fashion",
+    imgUrl: images.eventsp2,
     // price: "03/09/2022",
   },
   {
-    title: "Music",
+    imgUrl: images.eventsp3,
     // price: "$44",
   },
   {
-    title: "Dance",
+    imgUrl: images.eventsp4,
     // price: "$31",
   },
   {
-    title: "E- sports ",
+    imgUrl: images.eventsp5,
     // price: "$26",
   },
   {
-    title: "Workshops",
+    imgUrl: images.eventsp6,
     // price: "$26",
   },
   {
-    title: "Culinary",
+    imgUrl: images.eventsp7,
     // price: "$26",
   },
   {
-    title: "Arcade games",
+    imgUrl: images.eventsp10,
+    // price: "$26",
+  },
+  {
+    imgUrl: images.eventsp11,
+    // price: "$26",
+  },
+  {
+    imgUrl: images.eventsp12,
+    // price: "$26",
+  },
+  {
+    imgUrl: images.eventsp13,
+    // price: "$26",
+  },
+  {
+    imgUrl: images.eventsp14,
+    // price: "$26",
+  },
+  {
+    imgUrl: images.eventsp15,
+    // price: "$26",
+  },
+  {
+    imgUrl: images.eventsp16,
+    // price: "$26",
+  },
+  {
+    imgUrl: images.eventsp17,
+    // price: "$26",
+  },
+  {
+    imgUrl: images.eventsp18,
+    // price: "$26",
+  },
+  {
+    imgUrl: images.eventsp19,
+    // price: "$26",
+  },
+  {
+    imgUrl: images.eventsp20,
+    // price: "$26",
+  },
+  {
+    imgUrl: images.eventsp21,
+    // price: "$26",
+  },
+  {
+    imgUrl: images.eventsp22,
+    // price: "$26",
+  },
+  {
+    imgUrl: images.eventsp23,
     // price: "$26",
   },
 ];
@@ -95,14 +147,100 @@ const awards = [
 
 const teamdata = [
   {
-    title: "Bhavesh Kumar",
+    title: "Shubh",
     description: "Fest Head",
     imgUrl: images.award01,
   },
   {
-    title: "Shiv Samantaray",
-    description: "Decor Head",
+    title: "Priyanshi",
+    description: "Fest Head",
+    imgUrl: images.award02,
+  },
+  {
+    title: "Vaibhav",
+    description: "Fest Head",
     imgUrl: images.award01,
+  },
+  {
+    title: "Jayant",
+    description: "Event Head",
+    imgUrl: images.award01,
+  },
+  {
+    title: "Yagh",
+    description: "Event Head",
+    imgUrl: images.award02,
+  },
+  {
+    title: "Balaj",
+    description: "PR Head",
+    imgUrl: images.award01,
+  },
+  {
+    title: "Harsh Choudhary",
+    description: "Marketing Head",
+    imgUrl: images.award01,
+  },
+  {
+    title: "Rakshit",
+    description: "Sponsorship Head",
+    imgUrl: images.award01,
+  },
+  {
+    title: "Vikas",
+    description: "Editorial Head",
+    imgUrl: images.award01,
+  },
+  {
+    title: "Ayush Sehrawat",
+    description: "Logistics Head",
+    imgUrl: images.award01,
+  },
+  {
+    title: "Digambar",
+    description: "Security Head",
+    imgUrl: images.award01,
+  },
+  {
+    title: "Amandeep",
+    description: "Security Head",
+    imgUrl: images.award02,
+  },
+  {
+    title: "Prateek Singh",
+    description: "Medical/Health Head",
+    imgUrl: images.award01,
+  },
+
+  {
+    title: "Daksh",
+    description: "Media Head",
+    imgUrl: images.award01,
+  },
+  {
+    title: "Manas",
+    description: "Media Head",
+    imgUrl: images.award02,
+  },
+  {
+    title: "Granth",
+    description: "Graphics Head",
+    imgUrl: images.award01,
+  },
+  {
+    title: "Pallavi",
+    description: "Graphic Head",
+    imgUrl: images.award02,
+  },
+  {
+    title: "Harshit Mahori",
+    description: "Registration Head",
+    imgUrl: images.award02,
+  },
+  {
+    title: "Pranav Kapoor",
+    description: "Registration Head",
+    imgUrl: images.award02,
   },
   {
     title: "Bhuvnesh sharma",
@@ -110,113 +248,48 @@ const teamdata = [
     imgUrl: images.award01,
   },
   {
-    title: "Vishal bhardwaj",
+    title: "Mukul",
+    description: "Technical Head",
+    imgUrl: images.award02,
+  },
+  {
+    title: "Peeyush Kumar",
+    description: "Technical Head",
+    imgUrl: images.award02,
+  },
+  {
+    title: "Shubhang Singh",
+    description: "Technical Head",
+    imgUrl: images.award02,
+  },
+  {
+    title: "Atharva Shukla",
+    description: "Technical Head",
+    imgUrl: images.award02,
+  },
+  {
+    title: "Rishabh",
     description: "Hospitality Head",
     imgUrl: images.award01,
   },
   {
-    title: "Monika bhati",
-    description: "Event Head",
+    title: "Prateek",
+    description: "Hospitality Head",
     imgUrl: images.award01,
   },
   {
-    title: "Dhruv Mehta",
-    description: "Media Head",
+    title: "Sujal",
+    description: "Decoration Head",
     imgUrl: images.award01,
   },
   {
-    title: "Simar Jyot Singh Narang",
-    description: "Media Head",
+    title: "Unnati",
+    description: "Decoration Head",
     imgUrl: images.award02,
   },
   {
-    title: "Ankit Pandey",
-    description: " Sponsers team",
-    imgUrl: images.award01,
-  },
-  {
-    title: "Priyanshi Sharma",
-    description: "PR Team ",
-    imgUrl: images.award01,
-  },
-  {
-    title: "Ria Singhla",
-    description: "PR Team",
-    imgUrl: images.award02,
-  },
-  {
-    title: "Harsh Sharma",
-    description: "Marketing Team",
-    imgUrl: images.award01,
-  },
-  {
-    title: "Vaibhav Bhardwaj",
-    description: "Marketing Team",
-    imgUrl: images.award02,
-  },
-  {
-    title: "Karan Chaudhary",
-    description: "Discipline Team",
-    imgUrl: images.award01,
-  },
-  {
-    title: "Siya Sharma",
-    description: "Hospitality Team",
-    imgUrl: images.award02,
-  },
-  {
-    title: "Rahul Raghav",
-    description: "Logistics Team",
-    imgUrl: images.award01,
-  },
-  {
-    title: "Om Singh",
-    description: "Logistics Team",
-    imgUrl: images.award02,
-  },
-  {
-    title: "Simar Jyot",
-    description: "Media Team",
-    imgUrl: images.award01,
-  },
-  {
-    title: "Priyanka Narayn",
-    description: "Decoration Team",
-    imgUrl: images.award01,
-  },
-  {
-    title: "Shiv samantaray",
-    description: "Decoration Team",
-    imgUrl: images.award02,
-  },
-  {
-    title: "Monu Kumar",
-    description: "Reagistration Team",
-    imgUrl: images.award01,
-  },
-  {
-    title: "Tushar Juneja",
-    description: "Registration Team",
-    imgUrl: images.award02,
-  },
-  {
-    title: "Peeyush kumar",
-    description: "Technical Team",
-    imgUrl: images.award01,
-  },
-  {
-    title: "Atharva Shukla",
-    description: "Technical Team",
-    imgUrl: images.award01,
-  },
-  {
-    title: "Hidayat Bukhari",
-    description: "Technical Team",
-    imgUrl: images.award01,
-  },
-  {
-    title: "Rishivar",
-    description: "Graphic Team",
+    title: "Vasu Sukhija",
+    description: "Working Head",
     imgUrl: images.award01,
   },
 ];
@@ -251,4 +324,4 @@ const sponserimg = [
   { imgUrl: images.sponser27 },
 ];
 
-export default { wines, cocktails, awards, teamdata, sponserimg };
+export default { wines, cocktails, awards, teamdata, sponserimg};

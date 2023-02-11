@@ -1,15 +1,18 @@
 .app__menuItem{
-    width: 100%;
     margin: 1rem;
     display: flex;
     flex-direction: column;
 }
-
+.app__menuItem img{
+    
+    width: 35rem;
+}
 .app__menuItem-head{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 
 .app__menuItem-sub{
     width: 100%;
@@ -17,6 +20,9 @@
 }
 
 .app__menuItem-name{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     flex: 1;
 }
 
@@ -32,3 +38,12 @@
     justify-content: flex-end;
     align-items: flex-end;
 }
+@media screen and (max-width: 650px){
+    .app__menuItem img{
+        width: 100%;
+    }
+}
+
+
+
+     

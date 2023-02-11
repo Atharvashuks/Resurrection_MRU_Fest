@@ -5,15 +5,18 @@ import "./AboutUs.css";
 
 const AboutUs = () => (
   <div
-    className="app__aboutus app__bg2 flex__center section__padding2"
+    className="app__aboutus app__bg2  section__padding2"
     id="about"
   >
     {/* <div className="app__aboutus-overlay flex__center">
       <img src={images.Resurrection} alt="G" />
     </div> */}
+    <div className="app__aboutus-content_knife flex__center">
+        <img src={images.Resurrection} alt="G" />
+      </div>
 
-    <div className="app__aboutus-content flex__center">
-      <div className="app__aboutus-content_about">
+    <div className="app__aboutus-content flex__center ">
+      <div className="app__aboutus-content_about ">
         <h1 className="headtext__cormorant">About</h1>
         <img src={images.spoon} alt="about spoon" className="spoon__img" />
         <p className="p__opensans">
@@ -28,11 +31,9 @@ const AboutUs = () => (
         </button>
       </div>
 
-      <div className="app__aboutus-content_knife flex __center">
-        <img src={images.Resurrection} alt="G" />
-      </div>
+      
 
-      <div className="app__aboutus-content_history">
+      {/* <div className="app__aboutus-content_history">
         <h1 className="headtext__cormorant">Our History</h1>
         <img src={images.spoon} alt="about spoon" className="spoon__img" />
         <p className="p__opensans">
@@ -44,7 +45,7 @@ const AboutUs = () => (
         <button type="button" className="custom__button">
           Know More
         </button>
-      </div>
+      </div> */}
     </div>
   </div>
 );

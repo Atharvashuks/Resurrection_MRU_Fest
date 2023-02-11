@@ -2,7 +2,7 @@ import React from "react";
 import {
   AboutUs,
   Chef,
-  FindUs,
+  // FindUs,
   Gallery,
   Header,
   Intro,

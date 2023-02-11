@@ -24,10 +24,10 @@
 .app__aboutus-content_about {
   flex: 1;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-direction: column;
-  text-align: right;
+  text-align: left;
 }
 
 .app__aboutus-content_knife {
@@ -41,8 +41,8 @@
 .app__aboutus-content_history {
   flex: 1;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   text-align: left;
   position: relative;

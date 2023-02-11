@@ -1,7 +1,7 @@
 import React from "react";
 
 import { SubHeading, MenuItem } from "../../components";
-import { images, data } from "../../constants";
+import {  data } from "../../constants";
 import "./SpecialMenu.css";
 
 const SpecialMenu = () => (
@@ -12,26 +12,20 @@ const SpecialMenu = () => (
     </div>
 
     <div className="app__specialMenu-menu">
-      <div className="app__specialMenu-menu_wine  flex__center">
+     
         {/* <p className="app__specialMenu-menu_heading">Wine & Beer</p> */}
-        <div className="app__specialMenu_menu_items">
-          {data.wines.map((wine, index) => (
-            <MenuItem
-              key={(wine.title, index)}
-              title={wine.title}
-              price={wine.price}
-              tags={wine.tags}
-            />
-          ))}
-        </div>
-      </div>
+       
+          {data?.wines?.map((menuItem, index) => {
+            return<MenuItem  key={index} {...menuItem} />;
+           })}
+      
 
       {/* <div className="app__specialMenu-menu_img">
         <img src={images.menu} alt="mrnu" />
       </div> */}
 
-      <div className="app__specialMenu-menu_cocktails  flex__center">
-        {/* <p className="app__specialMenu-menu_heading">Cocktail</p> */}
+      {/* <div className="app__specialMenu-menu_cocktails  flex__center">
+        <p className="app__specialMenu-menu_heading">Cocktail</p>
         <div className="app__specialMenu_menu_items">
           {data.cocktails.map((cocktail, index) => (
             <MenuItem
@@ -42,7 +36,7 @@ const SpecialMenu = () => (
             />
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
 
     <div style={{ marginTop: "15px" }}>
