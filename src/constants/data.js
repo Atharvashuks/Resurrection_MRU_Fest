@@ -254,17 +254,17 @@ const teamdata = [
   },
   {
     title: "Peeyush Kumar",
-    description: "Technical Head",
+    description: "Web Developer",
     imgUrl: images.award02,
   },
   {
     title: "Shubhang Singh",
-    description: "Technical Head",
+    description: "Content Writer",
     imgUrl: images.award02,
   },
   {
     title: "Atharva Shukla",
-    description: "Technical Head",
+    description: "Web Developer",
     imgUrl: images.award02,
   },
   {

@@ -64,14 +64,14 @@ const Navbar = () => {
             />
             <ul className="app__navbar-smallscreen_links">
               <li className="p__opensans">
-                <a href="/#home">Home</a>
+                <a href="/#home" onClick={() => setToggleMenu(false)}>Home</a>
               </li>
               <li className="p__opensans">
-                <a href="/#about">About</a>
+                <a href="/#about" onClick={() => setToggleMenu(false)}>About</a>
               </li>
 
               <li className="p__opensans">
-                <a href="/#events">Events</a>
+                <a href="/#events" onClick={() => setToggleMenu(false)}>Events</a>
               </li>
               {/* <li className="p__opensans">
                 <a href="/#awards">Awards</a>
@@ -80,10 +80,10 @@ const Navbar = () => {
                 <a href="/#contact">Contact</a>
               </li> */}
               <li className="p__opensans">
-                <Link to="Sponsors">Sponsors</Link>
+                <Link to="Sponsors" onClick={() => setToggleMenu(false)}>Sponsors</Link>
               </li>
               <li className="p__opensans">
-                <Link to="Team">Team</Link>
+                <Link to="Team" onClick={() => setToggleMenu(false)}>Team</Link>
               </li>
             </ul>
           </div>
