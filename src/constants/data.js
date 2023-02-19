@@ -17,34 +17,34 @@ const wines = [
     imgUrl: images.eventsp4,
     // price: "$31",
   },
-  {
-    imgUrl: images.eventsp5,
-    // price: "$26",
-  },
+  // {
+  //   imgUrl: images.eventsp5,
+  //   // price: "$26",
+  // },
   {
     imgUrl: images.eventsp6,
     // price: "$26",
   },
-  {
-    imgUrl: images.eventsp7,
-    // price: "$26",
-  },
+  // {
+  //   imgUrl: images.eventsp7,
+  //   // price: "$26",
+  // },
   {
     imgUrl: images.eventsp10,
     // price: "$26",
   },
-  {
-    imgUrl: images.eventsp11,
-    // price: "$26",
-  },
+  // {
+  //   imgUrl: images.eventsp11,
+  //   // price: "$26",
+  // },
   {
     imgUrl: images.eventsp12,
     // price: "$26",
   },
-  {
-    imgUrl: images.eventsp13,
-    // price: "$26",
-  },
+  // {
+  //   imgUrl: images.eventsp13,
+  //   // price: "$26",
+  // },
   {
     imgUrl: images.eventsp14,
     // price: "$26",
@@ -57,34 +57,51 @@ const wines = [
     imgUrl: images.eventsp16,
     // price: "$26",
   },
-  {
-    imgUrl: images.eventsp17,
-    // price: "$26",
-  },
+  // {
+  //   imgUrl: images.eventsp17,
+  //   // price: "$26",
+  // },
   {
     imgUrl: images.eventsp18,
     // price: "$26",
   },
-  {
-    imgUrl: images.eventsp19,
-    // price: "$26",
-  },
+  // {
+  //   imgUrl: images.eventsp19,
+  //   // price: "$26",
+  // },
   {
     imgUrl: images.eventsp20,
     // price: "$26",
   },
-  {
-    imgUrl: images.eventsp21,
-    // price: "$26",
-  },
-  {
-    imgUrl: images.eventsp22,
-    // price: "$26",
-  },
+  // {
+  //   imgUrl: images.eventsp21,
+  //   // price: "$26",
+  // },
   {
     imgUrl: images.eventsp23,
     // price: "$26",
   },
+  // {
+  //   imgUrl: images.eventsp24,
+  //   // price: "$26",
+  // },
+  {
+    imgUrl: images.eventsp25,
+    // price: "$26",
+  },
+  {
+    imgUrl: images.eventsp26,
+    // price: "$26",
+  },
+  {
+    imgUrl: images.eventsp27,
+    // price: "$26",
+  },
+  {
+    imgUrl: images.eventsp28,
+    // price: "$26",
+  },
+
 ];
 
 const cocktails = [
@@ -323,5 +340,28 @@ const sponserimg = [
   { imgUrl: images.sponser26 },
   { imgUrl: images.sponser27 },
 ];
+const eventDomains = [
+  {
+    imgUrl: images.eventd1
+  },
+  {
+    imgUrl: images.eventd2
+  },
+  {
+    imgUrl: images.eventd3
+  },
+  {
+    imgUrl: images.eventd4
+  },
+  {
+    imgUrl: images.eventd5
+  },
+  {
+    imgUrl: images.eventd6
+  },
+  {
+    imgUrl: images.eventd7
+  },
+];
 
-export default { wines, cocktails, awards, teamdata, sponserimg};
+export default { wines, cocktails, awards, teamdata, sponserimg, eventDomains,};

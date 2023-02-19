@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import { SubHeading, MenuItem } from "../../components";
 import {  data } from "../../constants";
 import "./SpecialMenu.css";
@@ -8,7 +8,7 @@ const SpecialMenu = () => (
   <div className="app__specialMenu flex__center section__padding" id="events">
     <div className="app__specialMenu-title">
       <SubHeading title="Jaunra of Events!!" />
-      <h1 className="headtext__cormorant">Our Domains</h1>
+      <h1 className="headtext__cormorant">Our Events</h1>
     </div>
 
     <div className="app__specialMenu-menu">
@@ -40,9 +40,11 @@ const SpecialMenu = () => (
     </div>
 
     <div style={{ marginTop: "15px" }}>
+      <Link to="Events" alt="">
       <button type="button" className="custom__button">
         Explore our Events
       </button>
+      </Link>
     </div>
   </div>
 );
