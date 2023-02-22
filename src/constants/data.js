@@ -276,7 +276,7 @@ const teamdata = [
   },
   {
     title: "Shubhang Singh",
-    description: "Content Writer",
+    description: "Web Developer",
     imgUrl: images.award02,
   },
   {
@@ -342,25 +342,40 @@ const sponserimg = [
 ];
 const eventDomains = [
   {
-    imgUrl: images.eventd1
+    imgUrl: images.eventd1,
+    moreInfo: "https://drive.google.com/drive/folders/166xn__Wud_pZNlwBkrmQTxSVkV6bzAmi?usp=share_link"
   },
   {
-    imgUrl: images.eventd2
+    imgUrl: images.eventd2,
+    moreInfo:"https://drive.google.com/drive/folders/1MDf7BfCW-nQqVc_Y-wkX4c7n9KRNkPGj?usp=share_link"
   },
   {
-    imgUrl: images.eventd3
+    imgUrl: images.eventd3,
+    moreInfo:"https://drive.google.com/drive/folders/1j_V21KCFtY4MAN4g9jvYO6EuAEbxmhb7?usp=share_link"
   },
   {
-    imgUrl: images.eventd4
+    imgUrl: images.eventd4,
+    moreInfo:"https://drive.google.com/drive/folders/19tTnbJBXCyGgUMWHmq9uO45AwRCYg_hM?usp=share_link"
   },
   {
-    imgUrl: images.eventd5
+    imgUrl: images.eventd5,
+    moreInfo:"https://drive.google.com/drive/folders/1gwoVqI6juuabjyP3pH1B-omxzqBQZEuP?usp=share_link"
   },
   {
-    imgUrl: images.eventd6
+    imgUrl: images.eventd6,
+    moreInfo:"https://drive.google.com/drive/folders/1YriFqBRz2OYhovT3qjufclgicOlmVLQX?usp=share_link"
   },
   {
-    imgUrl: images.eventd7
+    imgUrl: images.eventd7,
+    moreInfo:"https://drive.google.com/drive/folders/1QVyRPjMJxutgasY9zBZVwD2t3O8J8ykw?usp=share_link"
+  },
+  {
+    imgUrl: images.eventd8,
+    moreInfo:"https://drive.google.com/drive/folders/1zeIR66T5I_OX_J9yN79B7Wv7IMd9ys2B?usp=share_link"
+  },
+  {
+    imgUrl: images.eventd9,
+    moreInfo:"https://drive.google.com/drive/folders/1R-ivAejY7Rt76dPjBgy4SE8nYMIM-S72?usp=share_link"
   },
 ];
 

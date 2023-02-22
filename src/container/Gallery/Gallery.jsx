@@ -40,7 +40,7 @@ const Gallery = () => {
       <div className="app__gallery-content">
         <SubHeading title="Resurrection" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
-        <p className="p__opensans" style={{ color: "#AAA", marginTop: "2rem" }}>
+        {/* <p className="p__opensans" style={{ color: "#AAA", marginTop: "2rem" }}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -48,7 +48,7 @@ const Gallery = () => {
         </p>
         <button type="button" className="custom__button">
           VIew More
-        </button>
+        </button> */}
       </div>
 
       <div className="app__gallery-images">

@@ -2,13 +2,13 @@ import React from "react";
 import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
 
 import { images } from "../../constants";
-import {  Newsletter } from "../../components";
+// import {  Newsletter } from "../../components";
 
 import "./Footer.css";
 
 const Footer = () => (
   <div className="app__footer section__padding">
-    <Newsletter />
+    {/* <Newsletter /> */}
 
     <div className="app__footer-links">
       {/* <div className="app__footer-links_contact">

@@ -1,6 +1,6 @@
 import React from "react";
 import SubHeading from "../../components/SubHeading/SubHeading";
-
+import { Link } from "react-router-dom";
 import { images } from "../../constants";
 import "./Header.css";
 
@@ -15,11 +15,11 @@ const Header = () => (
             alt="app logo"
           />
       </div>
-      <a href="#events">
-        <button type="button" className="custom__button">
-          Explore Events
-        </button>
-      </a>
+      <Link to="Events" alt="" className="p__opensans activeStyle" >
+      <button type="button" className="custom__button">
+        Explore our Events
+      </button>
+      </Link>
     </div>
     <div className="app__wrapper_img">
       <img src={images.bollywood} alt="header" />

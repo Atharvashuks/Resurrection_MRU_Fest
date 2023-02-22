@@ -84,6 +84,8 @@ import eventd4 from "../assets/fest_4.png";
 import eventd5 from "../assets/fest_5.png";
 import eventd6 from "../assets/fest_6.png";
 import eventd7 from "../assets/fest_7.png";
+import eventd8 from "../assets/fest_8.png";
+import eventd9 from "../assets/fest_9.png";
 import eventsp23 from "../assets/compresspng/24.png";
 import eventsp25 from "../assets/compresspng/26.png";
 import eventsp26 from "../assets/compresspng/27.png";
@@ -125,6 +127,8 @@ export default {
   eventd5,
   eventd6,
   eventd7,
+  eventd8,
+  eventd9,
   bg,
   chef,
   // G,

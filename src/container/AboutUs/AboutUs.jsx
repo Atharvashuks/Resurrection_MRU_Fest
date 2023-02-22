@@ -26,9 +26,9 @@ const AboutUs = () => (
           constructed from the ground up with the express purpose of becoming
           Pan India's largest cultural event.
         </p>
-        <button type="button" className="custom__button">
+        {/* <button type="button" className="custom__button">
           Know More
-        </button>
+        </button> */}
       </div>
 
       

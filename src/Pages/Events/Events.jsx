@@ -12,7 +12,7 @@ const Events = () => (
         return <Domain key={index} {...event} />;
       })}
     </div>
-    <div style={{ marginTop: "15px" }}>
+    <div style={{ marginTop: "10em" }}>
     <a href={EventManual} target="_blank" rel="noreferrer">
       <button type="button" className="custom__button">
         Event Manual
