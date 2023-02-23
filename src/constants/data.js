@@ -343,39 +343,48 @@ const sponserimg = [
 const eventDomains = [
   {
     imgUrl: images.eventd1,
-    moreInfo: "https://drive.google.com/drive/folders/166xn__Wud_pZNlwBkrmQTxSVkV6bzAmi?usp=share_link"
+    moreInfo: "https://drive.google.com/drive/folders/166xn__Wud_pZNlwBkrmQTxSVkV6bzAmi?usp=share_link",
+    registration:"https://forms.gle/r9CNeGdhgaUN4dG1A",
   },
   {
     imgUrl: images.eventd2,
-    moreInfo:"https://drive.google.com/drive/folders/1MDf7BfCW-nQqVc_Y-wkX4c7n9KRNkPGj?usp=share_link"
+    moreInfo:"https://drive.google.com/drive/folders/1MDf7BfCW-nQqVc_Y-wkX4c7n9KRNkPGj?usp=share_link",
+    registration:"https://forms.gle/XCnG8WnuRLJiRU7c6",
   },
   {
     imgUrl: images.eventd3,
-    moreInfo:"https://drive.google.com/drive/folders/1j_V21KCFtY4MAN4g9jvYO6EuAEbxmhb7?usp=share_link"
+    moreInfo:"https://drive.google.com/drive/folders/1j_V21KCFtY4MAN4g9jvYO6EuAEbxmhb7?usp=share_link",
+    registration:"https://forms.gle/pEZEqR2Cs2MFqD3w6",
   },
   {
     imgUrl: images.eventd4,
-    moreInfo:"https://drive.google.com/drive/folders/19tTnbJBXCyGgUMWHmq9uO45AwRCYg_hM?usp=share_link"
+    moreInfo:"https://drive.google.com/drive/folders/19tTnbJBXCyGgUMWHmq9uO45AwRCYg_hM?usp=share_link",
+    registration:"https://forms.gle/4jJP9xAds28npTq69",
   },
   {
     imgUrl: images.eventd5,
-    moreInfo:"https://drive.google.com/drive/folders/1gwoVqI6juuabjyP3pH1B-omxzqBQZEuP?usp=share_link"
+    moreInfo:"https://drive.google.com/drive/folders/1gwoVqI6juuabjyP3pH1B-omxzqBQZEuP?usp=share_link",
+    registration:"https://forms.gle/QTG3EwWK2upyvd3n9",
   },
   {
     imgUrl: images.eventd6,
-    moreInfo:"https://drive.google.com/drive/folders/1YriFqBRz2OYhovT3qjufclgicOlmVLQX?usp=share_link"
+    moreInfo:"https://drive.google.com/drive/folders/1YriFqBRz2OYhovT3qjufclgicOlmVLQX?usp=share_link",
+    registration:"https://forms.gle/bdtvac1dPbySd1YLA",
   },
   {
     imgUrl: images.eventd7,
-    moreInfo:"https://drive.google.com/drive/folders/1QVyRPjMJxutgasY9zBZVwD2t3O8J8ykw?usp=share_link"
+    moreInfo:"https://drive.google.com/drive/folders/1QVyRPjMJxutgasY9zBZVwD2t3O8J8ykw?usp=share_link",
+    registration:"https://forms.gle/NCFfq1LqfTF5SULW9",
   },
   {
     imgUrl: images.eventd8,
-    moreInfo:"https://drive.google.com/drive/folders/1zeIR66T5I_OX_J9yN79B7Wv7IMd9ys2B?usp=share_link"
+    moreInfo:"https://drive.google.com/drive/folders/1zeIR66T5I_OX_J9yN79B7Wv7IMd9ys2B?usp=share_link",
+    registration:"https://forms.gle/4AXpV8TcWhva3bvU6",
   },
   {
     imgUrl: images.eventd9,
-    moreInfo:"https://drive.google.com/drive/folders/1R-ivAejY7Rt76dPjBgy4SE8nYMIM-S72?usp=share_link"
+    moreInfo:"https://drive.google.com/drive/folders/1R-ivAejY7Rt76dPjBgy4SE8nYMIM-S72?usp=share_link",
+    registration:"https://forms.gle/2KDYuBrxpAwDF2Cm8",
   },
 ];
 
